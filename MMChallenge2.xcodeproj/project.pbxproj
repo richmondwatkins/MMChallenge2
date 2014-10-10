@@ -14,6 +14,9 @@
 		5D52463A19E81FF30021F8B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D52463919E81FF30021F8B3 /* Images.xcassets */; };
 		5D52463D19E81FF30021F8B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D52463B19E81FF30021F8B3 /* LaunchScreen.xib */; };
 		5D52464919E81FF30021F8B3 /* MMChallenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52464819E81FF30021F8B3 /* MMChallenge2Tests.m */; };
+		5D52465419E8209F0021F8B3 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52465319E8209F0021F8B3 /* City.m */; };
+		5D52465719E826F30021F8B3 /* CityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52465619E826F30021F8B3 /* CityDetailViewController.m */; };
+		5D52465A19E82DED0021F8B3 /* WikiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D52465919E82DED0021F8B3 /* WikiWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		5D52464219E81FF30021F8B3 /* MMChallenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMChallenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D52464719E81FF30021F8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D52464819E81FF30021F8B3 /* MMChallenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMChallenge2Tests.m; sourceTree = "<group>"; };
+		5D52465219E8209F0021F8B3 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = City.h; path = ../City.h; sourceTree = "<group>"; };
+		5D52465319E8209F0021F8B3 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = City.m; path = ../City.m; sourceTree = "<group>"; };
+		5D52465519E826F30021F8B3 /* CityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityDetailViewController.h; path = ../CityDetailViewController.h; sourceTree = "<group>"; };
+		5D52465619E826F30021F8B3 /* CityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityDetailViewController.m; path = ../CityDetailViewController.m; sourceTree = "<group>"; };
+		5D52465819E82DED0021F8B3 /* WikiWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiWebViewController.h; sourceTree = "<group>"; };
+		5D52465919E82DED0021F8B3 /* WikiWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		5D52462B19E81FF30021F8B3 /* MMChallenge2 */ = {
 			isa = PBXGroup;
 			children = (
+				5D52465519E826F30021F8B3 /* CityDetailViewController.h */,
+				5D52465619E826F30021F8B3 /* CityDetailViewController.m */,
+				5D52465819E82DED0021F8B3 /* WikiWebViewController.h */,
+				5D52465919E82DED0021F8B3 /* WikiWebViewController.m */,
+				5D52465219E8209F0021F8B3 /* City.h */,
+				5D52465319E8209F0021F8B3 /* City.m */,
 				5D52463019E81FF30021F8B3 /* AppDelegate.h */,
 				5D52463119E81FF30021F8B3 /* AppDelegate.m */,
 				5D52463319E81FF30021F8B3 /* ViewController.h */,
@@ -220,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D52463519E81FF30021F8B3 /* ViewController.m in Sources */,
+				5D52465A19E82DED0021F8B3 /* WikiWebViewController.m in Sources */,
 				5D52463219E81FF30021F8B3 /* AppDelegate.m in Sources */,
+				5D52465419E8209F0021F8B3 /* City.m in Sources */,
+				5D52465719E826F30021F8B3 /* CityDetailViewController.m in Sources */,
 				5D52462F19E81FF30021F8B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
